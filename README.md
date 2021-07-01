@@ -22,3 +22,9 @@
 - use .gitkeep to keep a folder
 - use .gitignore to ignore files
 
+# remotes
+
+- `ssh-keygen`: to create a ssh key
+- `git remote add <URL>`: adds the url
+- `git push origin main`: push to the main branch to the orgin remote
+  
