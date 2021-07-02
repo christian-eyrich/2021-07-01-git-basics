@@ -22,17 +22,21 @@
 - use .gitkeep to keep a folder
 - use .gitignore to ignore files
 
-# REMOTES 
+# remotes 
 
 - `ssh-keygen`: to create a ssh key
 - `git remote add <URL>`: adds the url
 - `git push origin main`: push to the main branch to the orgin remote
 - `git pull origin main`: pull to the remote site
+- `git clone <URL>`: clones the repo to your computer
 
 # stash
 - `git checkout -b <BRANCH>`: create a new branch and move to it
 - `git switch -c <BRANCH>`: create a new branch and move to it
 - `git checkout <BRANCH>`: move to the branch
 
+- `git stash list`:  show you the temp commits that are stashed
+- `git stash apply`: apply the last stash (pop)
+- `git stash clear`: remove all your stashes
 
- 
+# up-to-date 
